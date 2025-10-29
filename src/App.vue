@@ -3,10 +3,16 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
 console.log('我只是一行普普通通的console.log')
-let a = 'xxx'
+const a = 'xxx'
+let b = 'yyy'
+var c = 'zzz'
 setTimeout(() => {
   console.log(a + 'aaa')
 }, 1000);
+
+console.log("这边用的是双引号："+b)
+
+console.log("三种不同的变量声明："+c)
 </script>
 
 <template>
