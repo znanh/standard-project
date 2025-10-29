@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+console.log('我只是一行普普通通的console.log')
+let a = 'xxx'
+setTimeout(() => {
+  console.log(a + 'aaa')
+}, 1000);
 </script>
 
 <template>
