@@ -14,8 +14,7 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
-    "prepare": "husky",
-    "test": "echo \"No tests specified\" && exit 0"
+    "prepare": "husky"
   },
   "dependencies": {
     "pinia": "^3.0.3",
