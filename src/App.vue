@@ -4,8 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 console.log('我只是一行普普通通的console.log')
 const a = 'xxx'
-let b = 'yyy'
-var c = 'zzz'
+const b = 'yyy'
+const c = 'zzz'
 setTimeout(() => {
   console.log(a + 'aaa')
 }, 1000);
